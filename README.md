@@ -1,27 +1,43 @@
-# AWS Cloud Project - Web Server Deployment
+# 🚀 AWS EC2 Web Server Deployment Project
 
-## 🚀 Project Overview
-This project demonstrates how to deploy a static website on AWS EC2 using Nginx.
+## 📌 Project Overview
+This project demonstrates deploying a static website on a cloud server using AWS EC2 and Nginx.  
+The goal was to understand cloud infrastructure, server configuration, and basic automation.
 
-## 🛠 Technologies Used
-- AWS EC2
+---
+
+## 🏗️ Architecture
+User → Internet → AWS EC2 → Nginx → Website
+
+---
+
+## 🛠️ Technologies Used
+- Amazon Web Services (EC2)
 - Ubuntu Linux
-- Nginx
+- Nginx Web Server
 - Git & GitHub
+- Shell Scripting (Bash)
 
-## 📌 Steps Performed
-1. Launched EC2 instance
-2. Installed Nginx
-3. Configured web server
-4. Deployed website
-5. Automated deployment using shell script
+---
 
-## 🌐 Output
-Website hosted successfully using EC2 public IP.
+## ⚙️ Implementation Steps
 
-## 📂 Project Files
-- index.html
-- deploy.sh
+### 1. EC2 Setup
+- Launched Ubuntu EC2 instance
+- Configured Security Group (Port 22, 80)
 
-## 👨‍💻 Author
-Rahul Devadkar
+### 2. Server Configuration
+- Connected using SSH
+- Updated system packages
+
+### 3. Web Server Setup
+- Installed Nginx
+- Started and enabled service
+
+### 4. Website Deployment
+- Created index.html
+- Deployed to /var/www/html
+
+### 5. Automation
+- Created deploy.sh script
+- Automated installation and deployment
