@@ -43,7 +43,7 @@ User → Internet → AWS EC2 → Nginx → Website
 - Automated installation and deployment
 
 ## Live Demo
-http://13.233.95.1
+http://13.233.95.1     (Your public ip)
 
 ## 📸 Project Screenshots
 ![EC2 Setup](./screenshot1.png)
