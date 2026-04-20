@@ -42,6 +42,9 @@ User → Internet → AWS EC2 → Nginx → Website
 - Created deploy.sh script
 - Automated installation and deployment
 
+## Live Demo
+http://13.233.95.1
+
 ## 📸 Project Screenshots
 ![EC2 Setup](./screenshot1.png)
 ![Website Output](./screenshot2.png) 
