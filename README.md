@@ -41,3 +41,36 @@ User → Internet → AWS EC2 → Nginx → Website
 ### 5. Automation
 - Created deploy.sh script
 - Automated installation and deployment
+
+## 📸 Project Screenshots
+![EC2 Setup](./screenshot1.png)
+![Website Output](./screenshot2.png) 
+
+
+
+---
+
+## 🔑 Key Learnings
+- Launching and managing EC2 instances  
+- Linux server configuration  
+- Web server deployment using Nginx  
+- Basic automation using shell scripting  
+- Version control using Git  
+
+---
+
+## 🚀 Future Improvements
+- Add custom domain (Route 53)  
+- Enable HTTPS (SSL certificate)  
+- Automate deployment using CI/CD  
+- Dockerize the application  
+
+---
+
+## 👨‍💻 Author
+*Rahul Devadkar*
+
+---
+
+## ⭐ Acknowledgement
+This project is part of my Cloud/DevOps learning journey.
