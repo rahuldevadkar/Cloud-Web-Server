@@ -1,4 +1,7 @@
-## 📸 Screenshot 
+## 📸 Project Screenshots
+![EC2 Setup](./screenshot1.png)
+![Website Output](./screenshot2.png) 
+
 
 
 ---
